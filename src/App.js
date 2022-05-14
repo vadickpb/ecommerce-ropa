@@ -3,7 +3,7 @@ import Authentication from './routes/authentication/authentication.component'
 import Home from './routes/home/home.component'
 import { Navigation } from './routes/navigation/navigation.component'
 import Shop from './components/shop/shop.component'
-import Checkout from './components/checkout/checkout.component'
+import Checkout from './routes/checkout/checkout.component'
 
 const App = () => {
 
