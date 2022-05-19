@@ -5,7 +5,7 @@ import Button from '../button/button.component'
 
 import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils'
 
-import './sign-up-form.styles.scss'
+import { SignUpContainer } from './sign-up-form.styles'
 
 
 const defaultFormFields = {
@@ -56,7 +56,7 @@ const SignUpForm = () => {
 
 
     return (
-        <div className='sign-up-container'>
+        <SignUpContainer>
             <h2>¿No tienes una cuenta?</h2>
             <span>Registrate con tu correo y contraseña</span>
             <form onSubmit={handleSubmit}>
@@ -96,7 +96,7 @@ const SignUpForm = () => {
                 <Button type='submit'>Registrate</Button>
             </form>
         
-        </div>
+        </SignUpContainer>
     )
 }
 
