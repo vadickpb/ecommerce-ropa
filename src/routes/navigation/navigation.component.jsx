@@ -24,19 +24,19 @@ export const Navigation = () => {
      <Fragment>
         <NavigationContainer>
             <LogoContainer to='/'>
-                <CrwnLogo className='logo' />
+                <CrwnLogo />
             </LogoContainer>
             <NavLinks>
                 <NavLink to = '/shop' >
-                    SHOP
+                    TIENDA
                 </NavLink>
 
                 { currentUser ? (
                     <NavLink as='span' onClick={signOutUser}>
-                        SIGN OUT
+                        CERRAR SESIÓN
                     </NavLink>) : (
                     <NavLink  to = '/auth' >
-                        SIGN IN
+                        INICIAR SESIÓM
                     </NavLink>
                 )}
 
