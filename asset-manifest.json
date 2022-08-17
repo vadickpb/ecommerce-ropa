@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecommerce-ropa/static/css/main.74e4f5d0.css",
-    "main.js": "/ecommerce-ropa/static/js/main.30332580.js",
+    "main.js": "/ecommerce-ropa/static/js/main.aec80687.js",
     "static/media/shopping-bag.svg": "/ecommerce-ropa/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
     "static/media/crown.svg": "/ecommerce-ropa/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
     "index.html": "/ecommerce-ropa/index.html",
     "main.74e4f5d0.css.map": "/ecommerce-ropa/static/css/main.74e4f5d0.css.map",
-    "main.30332580.js.map": "/ecommerce-ropa/static/js/main.30332580.js.map"
+    "main.aec80687.js.map": "/ecommerce-ropa/static/js/main.aec80687.js.map"
   },
   "entrypoints": [
     "static/css/main.74e4f5d0.css",
-    "static/js/main.30332580.js"
+    "static/js/main.aec80687.js"
   ]
 }
