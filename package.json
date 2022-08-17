@@ -2,7 +2,7 @@
   "name": "clothes-ecommerce",
   "version": "0.1.0",
   "homepage": "https://vadickpb.github.io/ecommerce-ropa",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
